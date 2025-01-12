@@ -135,6 +135,7 @@
     border-radius: 8px;
     padding: 17px 34px;
     margin-top: 32px;
+    
 }
 .banner-profile-pic{
     width: 474.03px;
@@ -158,9 +159,11 @@
     text-align: center;
 }
 /* main styles */
-.main{
-    max-width: 1280px;
-    margin: 80px 160px;
+main{
+    width: 1280px;
+    margin-left: auto ;
+    margin-right: auto;
+    
 }
 /* dt style */
 .dt{
@@ -258,10 +261,27 @@ footer input[type="text"]{
     background-color: #FFFFFF;
     padding: 20px 40px;
     margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  
+  
     
 }
-footer button{
+/* footer button{
+    gap: 32px; */
+
+
+.gap{
+    display: flex;
     gap: 32px;
-    
-} 
+    justify-content: center;
+}
+.gap2{
+    margin-left: auto;
+    margin-right: auto;
+}
+.Donate{
+    margin-left: auto;
+    margin-right: auto;
+}
 

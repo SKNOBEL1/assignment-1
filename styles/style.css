@@ -1,5 +1,9 @@
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 .open-sans-normal {
@@ -17,6 +21,7 @@
 /* banner styles */
 .banner{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     border-radius: 24px;
     background-color: #C6E4D6;
@@ -62,4 +67,34 @@
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
     font-weight: 500;
+}
+/* text center*/
+.text-center{
+     text-align: center;
+}
+/* main styles */
+.main{
+    max-width: 1280px;
+    margin: 80px 160px;
+}
+/* datas style */
+.datas{
+    display: flex;
+    gap: 24px;
+
+}
+.data-description{
+    padding: 32px;
+}
+.data-1{
+    width: 410.67px;
+    background-color: rgba(84, 144, 245, 0.5);
+}
+.data-2{ 
+    width: 410.67px;
+    background-color:  rgba(9, 161, 92, 0.5);
+}
+.data-3{
+    width: 410.67px;
+    background-color: rgba(255, 194, 57, 0.5);
 }

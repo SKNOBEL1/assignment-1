@@ -135,6 +135,8 @@
     border-radius: 8px;
     padding: 17px 34px;
     margin-top: 32px;
+    margin-left: 850px;
+    
     
 }
 .banner-profile-pic{
@@ -261,8 +263,8 @@ footer input[type="text"]{
     background-color: #FFFFFF;
     padding: 20px 40px;
     margin-top: 32px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 420px;
+    
   
   
     
@@ -276,12 +278,5 @@ footer input[type="text"]{
     gap: 32px;
     justify-content: center;
 }
-.gap2{
-    margin-left: auto;
-    margin-right: auto;
-}
-.Donate{
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
